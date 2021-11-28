@@ -1,4 +1,5 @@
 <?php
+// ハンターがライオンを狩るゲームを作る
 interface Lion
 {
   public function roar();
