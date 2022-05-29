@@ -31,6 +31,6 @@ $player3 = clone $player1;
 $player3->name = "山田";
 $player3->status->level = 50;
 
-
-var_dump($player1); // 名前は山田、レベルは50
+// clone を使って deep copy になるので、$player1の名前は佐藤になるが、参照型であるlevelの方はレベル50になってしまう
+var_dump($player1); // 名前は佐藤、レベルは50
 var_dump($player3); // 名前は山田、レベルは50
