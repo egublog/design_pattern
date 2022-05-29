@@ -25,3 +25,12 @@ $player2->status->level = 10000;
 // clone を使わないと、shallow copy になるので、$player1は、レベル20の佐藤にならない
 var_dump($player1); // 名前は田中、レベルは10000
 var_dump($player2); // 名前は田中、レベルは10000
+
+$player3 = clone $player1;
+
+$player3->name = "山田";
+$player3->status->level = 50;
+
+
+var_dump($player1); // 名前は山田、レベルは50
+var_dump($player3); // 名前は山田、レベルは50
