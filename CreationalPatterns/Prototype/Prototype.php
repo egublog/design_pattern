@@ -6,6 +6,12 @@ class Status {
 class Player {
   public string $name;
   public Status $status;
+
+  // このマジックメソッドがあると、レベル20の佐藤さんを作成できる
+  public function __clone()
+  {
+    $this->status = clone $this->status;
+  }
 }
 
 
