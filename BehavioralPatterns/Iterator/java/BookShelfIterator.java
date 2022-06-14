@@ -3,6 +3,9 @@ package BehavioralPatterns.Iterator.java;
 import java.util.Iterator;
 import java.util.NoSuchElementException;
 
+/*
+ * 本棚のイテレータクラス
+ */
 public class BookShelfIterator implements Iterator<Book> {
   private BookShelf bookShelf;
   private int index;
