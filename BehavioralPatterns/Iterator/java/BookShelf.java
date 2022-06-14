@@ -6,8 +6,8 @@ public class BookShelf implements Iterable<Book> {
   private Book[] books;
   private int last = 0;
   
-  public BookShelf(int maxsize) {
-    books = new Book[maxsize];
+  public BookShelf(int maxSize) {
+    books = new Book[maxSize];
   }
 
   public Book getBookAt(int index) {
