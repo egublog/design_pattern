@@ -1,5 +1,8 @@
 package BehavioralPatterns.Iterator.java;
 
+/* 
+ * 本棚に入れる本のクラス
+ */
 public class Book {
   private String name;
 
