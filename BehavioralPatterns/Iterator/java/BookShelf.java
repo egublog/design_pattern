@@ -2,6 +2,9 @@ package BehavioralPatterns.Iterator.java;
 
 import java.util.Iterator;
 
+/*
+ * 本棚クラス
+ */
 public class BookShelf implements Iterable<Book> {
   private Book[] books;
   private int last = 0;
