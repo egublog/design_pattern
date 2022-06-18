@@ -2,6 +2,9 @@ package BehavioralPatterns.Iterator.java;
 
 import java.util.Iterator;
 
+/*  
+ * Mainクラス
+ */
 public class Main {
   public static void main(String[] args) {
     BookShelf bookShelf = new BookShelf(4);
