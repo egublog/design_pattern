@@ -3,6 +3,9 @@ package CreationalPatterns.Prototype.java;
 import java.util.HashMap;
 import java.util.Map;
 
+/*
+ * マネージャークラス
+ */
 public class Manager {
   private Map<String, Product> showcase = new HashMap<>();
 
